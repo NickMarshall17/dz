@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашнее задание №2</title>
+</head>
+<body>
+    <form autocomplete="on" enctype="multipart/form-data">
+        <fieldset>
+            <h1>Страница Регистрации</h1><br>
+            <label>
+                <strong>Логин:</strong>
+                <input type="text" id="login" minlength="8" maxlength="25" size="25"  required autofocus placeholder="Введите Логин" >
+            </label>
+            <br>
+            <label>
+                <strong>Укажите e-mail</strong>
+                <input type="e-mail" id="e-mail" minlength="8" maxlength="25" size="25" autocomplete="on" required placeholder="Введите e-mail" >
+            </label>
+            <br>
+            <label>
+               <strong>Пароль: </strong> 
+                <input type="password" id="pass" minlength="8" maxlength="30" size="20" required placeholder="Введите пароль">
+            </label>
+            <br>
+            <label>
+                <strong>Подтверждение Пароля: </strong> 
+                 <input type="password" id="pass_confirm" minlength="8" maxlength="30" size="20" required placeholder="Подтверждение пароля">
+             </label>
+             <br>
+             <strong>Прикрепите ваше фото</strong>
+             <input type="file" accept="image/*">
+             <br>
+            <label>
+                <strong>Ваш пол:</strong>
+                <input name="pol" type="radio"> Мужской
+                <input name="pol" type="radio"> Женский
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="politica" id="" required> Подтверждение обработки персональных данных
+            </label>
+            <br>
+            <input type="submit" value="Отправить">
+            
+        </fieldset>
+    </form>
+    <div>
+        <ol>
+            <li><a href="index.html" target="self">Страница 1 </a></li>
+            <li><a href="index2.html"target="blank">Страница 2 </a></li>
+            <li><a href="index3.html">Страница 3 </a></li>
+        </ol>
+    </div>
+    <div>
+        <a href="index.html#first" target="blank"> Первая картинка </a>
+    </div>
+    <div>
+        <a href="index.html#second"> Вторая  картинка </a>
+    </div>
+    <div>
+        <a href="index.html#third"> Третья картинка </a>
+    </div>
+</body>
+</html>
