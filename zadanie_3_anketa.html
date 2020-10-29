@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание №3</title>
+    <link rel="stylesheet" href="zadanie_3.css">
+</head>
+<body>
+    <ul class="css-menu-1">
+        <li><a href="zadanie_3.html"class="selected">главная</a></li>
+        <li><a href="zadanie_3_anketa.html">опрос</a></li>
+        <li><a href="zadanie_3_blog.html">блог</a></li>
+    </ul>
+    <h1>Анкета на занимаемую должность</h1>
+    <form method="POST" autocomplete="on" enctype="multipart/form-data" name="forma">
+        <fieldset>
+            <label>Введите своё имя:<input type="text" required autofocus placeholder="Ваше Имя:"> </label> <br>
+            <label for="login">Введите ваш логин: <input type="login" required autocomplete="on" placeholder="Ваш Логин:"></label> <br>
+            <label for="email">Введите ваш e-mail: <input type="email" required placeholder="Ваша почта:"></label> <br>
+            <label>Введите ваш пароль: <input type="password" required minlength="8" placeholder="Ваш пароль:"></label><br>
+            <label>Подтвердите ваш пароль: <input type="password" required minlength="8" placeholder="Подтверждение пароля:"></label><br><br>
+            <input type="file" multiple required placeholder="Загрузите ваши фотографии"> <br>
+            <label>Введите ваш возраст <input type="number" placeholder="18-99" maxlength="99" step="1"></label><br>
+            <label>Укажите свой номер <input type="tel" required placeholder="+7(***)***_**_**"></label><br>
+            <Label for="zp">Выбирете предпочитаемую ЗП</Label> <br><br>
+            <input type="checkbox"  id="50$" name="50$" value="50$" > <Label for="zp">50$</Label>
+            <input type="checkbox"  id="150$"name="150$" value="150$"> <Label for="zp">150$</Label>
+            <input type="checkbox"  id="250$"name="250$" value="250$"> <Label for="zp">250$</Label>
+            <input type="checkbox"  id="350$"name="350$" value="350$"> <Label for="zp">350$</Label><br>
+            <p>Укажите ваше образование:</p>
+            <label><input type="radio" id="obraz1" name="obrazov" value="school">Школа</label>
+            <label><input type="radio" id="obraz2" name="obrazov" value="middle">Среднеее</label>
+            <label><input type="radio" id="obraz3" name="obrazov" value="high"checked>Высшее</label> <br>
+            <p>Выберете должность:</p>
+            <select name="rabota">
+                <option value="vacan0" disabled selected ></option>
+                <option value="vacan1">Инженер</option>
+                <option value="vacan2">Строитель</option>
+                <option value="vacan3">Механик</option>
+                <option value="vacan4">Начальник</option>
+            </select>
+            <label> <h2>Расскажите о себе</h2>
+                <input type="text" id="osebe" required maxlength="10000" minlength="50" placeholder="Увлечения, хобби, компитенции.">
+            </label>
+        </fieldset>
+        <input type="submit">
+        
+    </form>
+   </body>
+</html>
