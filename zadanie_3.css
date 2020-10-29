@@ -98,12 +98,14 @@ p[id=data]{
 }
 .container{
     display: inline-block;
-    height: 400px;
+    
 }
 img{
     width: 300px;
     display: block;
-    margin: 0 auto ;
+    margin: 20px;
+    float: right;
+    margin-top: -30px;
     
     
 }
