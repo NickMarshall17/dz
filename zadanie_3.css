@@ -1,0 +1,113 @@
+body{
+    background-image: url(8234662.png);
+    background-attachment: fixed;
+    margin: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+ul.css-menu-1 li {
+display: inline-block;
+} 
+     
+ul.css-menu-1 li a {
+    text-decoration: none;
+    background: #5c6cb7;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffaa00;
+    padding: 16px 20px 16px 20px;
+    margin-left:10px;
+    text-transform: uppercase;
+    border-color: red;
+    border: 5px;
+    border-radius: 20px;
+
+}    
+ul.css-menu-1 li a:hover {
+    padding: 14px 18px 14px 18px;
+    font-weight: bold;
+    background: #364d95;
+    color: #aa0000   
+}
+ul.css-menu-1 li a.selected {
+    background: #364e95
+   
+}
+fieldset{
+    margin-top: 40px ;
+}
+label{
+    font-weight: 700;
+}
+label>input{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 25px;
+    border-color: red;
+}
+::placeholder{
+    font-size: 16px;
+}
+fieldset{
+    border: red;
+    
+}
+p{
+    font-size: 20px;
+}
+input[type=submit]{
+    text-decoration: none;
+    background: #5c6cb7;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffaa00;
+    padding: 16px 20px 16px 20px;
+    margin-left:10px;
+    text-transform: uppercase;
+    border-color: red;
+    border: 5px;
+    border-radius: 20px;
+}
+input:hover[type=submit]{
+    padding: 14px 18px 14px 18px;
+    font-weight: bold;
+    background: #364d95;
+    color: #aa0000 
+
+}
+h1{
+    margin: 35px -50px 0px 25px;
+}
+input[id=osebe]{
+    height: 100px;
+    width: 300px;
+}
+a[id=name]{
+    font-size: 23px;
+    color: green;
+    font-weight: bold;
+}
+p[id=zagolovok]{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 75);
+}
+p[id=data]{
+    font-size: 15px;
+}
+.container{
+    display: inline-block;
+    height: 400px;
+}
+img{
+    width: 300px;
+    display: block;
+    margin: 0 auto ;
+    
+    
+}
+.container{
+    margin-top: 50px;
+    border: black solid 2px;
+}
