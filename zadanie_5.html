@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание №5</title>
+    <link rel="stylesheet" href="zadanie_5.css">
+</head>
+<body>
+  <navbar>
+      <h2>Задание №1 "Выпадающие меню"</h2>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Первая</a></li>
+                <li><a href="#">Вторая</a>
+                    <ul>
+                        <li><a href="#">Меню первого уровня 1</a></li>
+                        <li><a href="#">Меню первого уровня 2</a>
+                         <ul>
+                             <li><a href="#">Меню второго уровня 1</a>
+                                <ul>
+                                    <li><a href="#">Меню третьего уровня 1</a></li>
+                                    <li><a href="#">Меню третьего уровня 2</a></li>
+                                    <li><a href="#">Меню третьего уровня 3</a></li>
+                                </ul>
+                            </li>
+                             <li><a href="#">Меню второго уровня 2</a></li>
+                             <li><a href="#">Меню второго уровня 3</a>
+                                <ul>
+                                    <li><a href="#">Меню третьего уровня 1</a></li>
+                                    <li><a href="#">Меню третьего уровня 2</a></li>
+                                    <li><a href="#">Меню третьего уровня 3</a></li>
+                                </ul>
+                            </li>
+                         </ul>
+                        </li>   
+                        <li><a href="#">Меню первого уровня 3</a></li>
+                        <li><a href="#">Меню первого уровня 4</a></li>
+                        <li><a href="#">Меню первого уровня 5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Третья</a></li>
+                <li><a href="#">Четвертая</a></li>
+                <li><a href="#">Пятая</a></li>
+            </ul>
+        </div>
+    </navbar>
+    <h2>Задание №2 "Модальное окно"</h2>
+    <a href="#openModal" id="modalnoe">Открыть модальное окно</a>
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#close" title="Закрыть" class="close">X</a>
+            <h2>Модальное окно</h2>
+            <p>Пример простого модального окна, которое может быть создано с использованием CSS3.</p>
+        </div>
+    </div>
+</body>
+</html>
